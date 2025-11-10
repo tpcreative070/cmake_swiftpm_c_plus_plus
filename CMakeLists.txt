@@ -20,6 +20,6 @@ target_include_directories(CalculationCpp PUBLIC
 )
 
 set_target_properties(CalculationCpp PROPERTIES
-    CXX_STANDARD 21
+    CXX_STANDARD 17
     CXX_STANDARD_REQUIRED ON
 )
