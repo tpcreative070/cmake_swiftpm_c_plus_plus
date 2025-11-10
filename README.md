@@ -17,4 +17,4 @@ Step 1#.
 Step 2#.
 
 
-![Uploading Screenshot 2025-11-10 at 11.26.33.png…]()
+<img width="2556" height="1386" alt="Screenshot 2025-11-10 at 11 26 33" src="https://github.com/user-attachments/assets/1d17ecf5-54cf-4453-9fb6-06fc3f255855" />
