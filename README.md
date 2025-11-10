@@ -10,6 +10,9 @@
 > - **Cmake export to a static library**<br>
      -cmake --build . --config Release
 > Sample code
+
+https://github.com/tpcreative070/CmakeSample.git
+
 Step 1#.
 
 <img width="2559" height="1294" alt="Screenshot 2025-11-10 at 11 25 41" src="https://github.com/user-attachments/assets/7ca7add7-bb94-4ce0-9c44-894af92b5633" />
