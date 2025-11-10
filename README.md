@@ -8,9 +8,11 @@
 > - **In case an error occurs while building the project, try the following steps to resolve the problem, open your target’s Build Settings, find Other Swift Flags under Swift Compiler - Custom Flags, and  add:**<br>
 >    -cxx-interoperability-mode=default<br><br><br>
 > - **Cmake export to a static library**<br>
-    cmake -B build -G Xcode -DCMAKE_TOOLCHAIN_FILE=ios.toolchain.cmake -DPLATFORM=OS64<br><br><br>
-    cmake --build build --config Release<br><br><br>
-> Sample code
+>    cmake -B build -G Xcode -DCMAKE_TOOLCHAIN_FILE=ios.toolchain.cmake -DPLATFORM=OS64<br>
+>    cmake --build build --config Release<br><br><br>
+> 
+
+**Here’s a sample code example showing how to use a Swift package**
 
 https://github.com/tpcreative070/CmakeSample.git
 
