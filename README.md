@@ -8,7 +8,8 @@
 > - **In case an error occurs while building the project, try the following steps to resolve the problem, open your target’s Build Settings, find Other Swift Flags under Swift Compiler - Custom Flags, and  add:**<br>
 >    -cxx-interoperability-mode=default<br><br><br>
 > - **Cmake export to a static library**<br>
-     -cmake --build . --config Release<br><br>
+    cmake -B build -G Xcode -DCMAKE_TOOLCHAIN_FILE=ios.toolchain.cmake -DPLATFORM=OS64<br><br><br>
+    cmake --build build --config Release<br><br><br>
 > Sample code
 
 https://github.com/tpcreative070/CmakeSample.git
